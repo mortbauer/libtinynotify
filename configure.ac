@@ -34,5 +34,5 @@ AS_IF([test x"$enable_debug" = x"no"], [
 ])
 
 AC_CONFIG_HEADER([config.h])
-AC_CONFIG_FILES([Makefile doc/Makefile libtinynotify.pc doc/example-mailclient.xml])
+AC_CONFIG_FILES([Makefile libtinynotify.pc ])
 AC_OUTPUT
